@@ -1,0 +1,339 @@
+/* HTML elements */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* ID's */
+
+#boxes {
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+#footer a {
+    text-align: center;
+    text-decoration:underline;
+    display: block;
+    clear: both;
+    color: black;
+}
+
+#footer img {
+    max-width: 10%;
+    display: block;
+    margin: 20% auto 2% auto;
+    overflow: hidden;
+    clear: both;
+}
+
+#nav { 
+    margin: 2% 0% 0% 0%;
+    float: right;
+    font-weight: 100;
+    width: 50%;
+}
+
+
+#nav li{ 
+    display: inline;
+    font-size: 120%;
+    padding: 2%;
+}
+
+#page{
+    margin: 3% auto;
+    width: 90%;
+}
+
+#ranking h4{
+    text-align: center;
+    clear: both;
+    font-size: 220%;
+    width: 50%;
+    margin: 10% auto 0% auto;
+    font-weight: normal;
+}
+
+#ranking p{
+    text-align: center;
+    clear: both;
+    margin: 2% auto 5% auto;
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+#title h1{
+    font-size: 500%; 
+    margin: 0% 0% 0% 0%;
+    float: left;
+    font-family: 'Teko', sans-serif;
+    font-weight: bolder;
+    color: #C70909;
+}
+
+#title img {
+    display: none;
+}
+
+
+/* Classes */
+
+[class^="box"] {
+    float: left;
+    padding: 0% 2%;
+    margin: 0% 1% 10% 1%;
+    border-radius: 20%;
+    border: 5px solid #C70909;
+}
+
+.breakdown h2 {
+    text-align: center;
+    margin: 10% auto 5% auto;
+    font-size: 250%;
+}
+
+.explore {
+    text-align: center;
+    clear: both;
+    margin: 0% auto 2% auto;
+    padding: 1%;
+    border-radius: 20%;
+    background-color:#970808;
+    width: 20%;
+}
+
+.explore a {
+    color: white;
+    font-size: 130%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.headline1 {
+    float: left;
+    clear: left;
+    width: 40%;
+    font-size: 250%;
+    margin: 10% 10% 15% 5%;
+}
+    
+.headline2 img {
+    max-width: 40%;
+    float: left;
+    clear: right;
+    margin: 10% 5% 15% 0%;
+    overflow: hidden;
+}
+
+.italics {
+    font-style: italic; 
+}
+
+p.num {
+    font-size: 300%;
+    text-align: center;
+}
+
+p.year {
+    font-size: 200%;
+}
+
+.represent2 {
+    float: left;
+    clear: right;
+    width: 30%;
+    font-size: 250%;
+    margin: 5% 10% 20% 0%;
+}
+
+.represent1 img {
+    max-width: 40%;
+    float: left;
+    margin: 10% 10% 0% 5%;
+    overflow: hidden;
+}
+
+/* tablet */
+@media screen and (max-width: 768px){
+    #boxes {
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+    #nav li{ 
+        display: inline;
+        font-size: 60%;
+        padding: 2%;
+    }
+
+    #ranking h4{
+        font-size: 150%;
+        width: 90%;
+        margin: 10% auto 0% auto;
+    }
+    
+    #ranking p{
+        margin: 2% auto 5% auto;
+        font-size: 80%; 
+    }
+
+    #title h1{
+        font-size: 250%; 
+        float: left;
+    }
+    
+    [class^="box"] {
+        float: left;
+        padding: 0% 2%;
+        margin: 0% 1% 10% 1%;
+    }
+
+    .breakdown h2 {
+        margin: 15% auto 5% auto;
+        font-size: 150%;
+    }
+
+    .explore {
+        margin: 0% auto 2% auto;
+        padding: 1%;
+        width: 25%;
+    }
+
+    .headline1 {
+        width: 50%;
+        font-size: 150%;
+        margin: 10% 0% 15% 5%;
+    }
+        
+    .headline2 img {
+        max-width: 40%;
+        margin: 15% 0% 15% 0%;
+        overflow: hidden;
+    }
+
+    p.num {
+        font-size: 200%;
+        text-align: center;
+    }
+    
+    p.year {
+        font-size: 100%;
+    }
+
+    .represent2 {
+        width: 35%;
+        font-size: 100%;
+        margin: 5% 0% 20% 0%;
+    }
+    
+    .represent1 img {
+        max-width: 40%;
+        margin: 5% 5% 0% 10%;
+        overflow: hidden;
+    }
+
+}
+
+/* mobile */
+@media screen and (max-width: 576px) {
+    #boxes {
+        clear: both;
+    }
+
+    #title h1{
+        font-size: 230%; 
+        margin: 0% 8%;
+    }
+    #nav ul {
+        display: none;
+    }
+
+    #title img {
+        display: inline;
+        max-width: 7%;
+        float: left;
+        margin: 2% 10% 0% 2%;
+    }
+
+    #ranking h4{
+        font-size: 120%;
+        width: 80%;
+        margin: 10% auto 0% auto;
+    }
+    
+    #ranking p{
+        margin: 2% auto 5% auto;
+        font-size: 80%; 
+        width: 70%;
+    }
+
+    #title h1{
+        font-size: 250%; 
+        float: left;
+    }
+    
+    [class^="box"] {
+        padding: 0% 0%;
+        width: 50%;
+        margin: 5% 20%;
+    }
+
+    .breakdown h2 {
+        margin: 15% auto 5% auto;
+        font-size: 150%;
+    }
+
+    .explore {
+        margin: 0% auto 2% auto;
+        padding: 1%;
+        width: 25%;
+    }
+
+    .explore a {
+        font-size: 100%;
+    }
+
+    .headline1 {
+        width: 85%;
+        font-size: 120%;
+        margin: 10% 0% 2% 10%;
+        clear:both;
+    }
+        
+    .headline2 img {
+        max-width: 70%;
+        margin: 5% 15% 15% 15%;
+        overflow: hidden;
+        clear: both;
+    }
+
+     p.num {
+        font-size: 200%;
+        text-align: center;
+    }
+    
+    p.year {
+        font-size: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .represent2 {
+        width: 70%;
+        font-size: 100%;
+        margin: 10% 15% 20% 15%;
+        clear: both;
+    }
+    
+    .represent1 img {
+        max-width: 70%;
+        margin: 20% 15% 0% 15%;
+        overflow: hidden;
+        clear: both;
+    } 
+}
